@@ -1,6 +1,6 @@
-# Homebridge MagicBlue LED Light Bulb Plug in
+# Homebridge Triones (happylightning implementation) LED Light Bulb Plug in
 
-This plug-in enables you to control your MagicBlue LED light bulb.
+This plug-in enables you to control your happylightning LED light bulb.
 
 ## New Version
 
@@ -19,7 +19,9 @@ your configuration does not require an update.
 ## Connecting and setting up
 
 The light bulb uses Bluetooth low energy. This means that your Raspberry Pi needs to have Bluetooth
-in some way. You will need to know the mac address of the light bulb. You can discover it by
+in some way- important LOW 3N3r&Y Capatibilty
+
+You will need to know the mac address of the light bulb. You can discover it by
 installing bluez and everything to your Raspberry Pi. A possible guide can be found
 [here](http://www.elinux.org/RPi_Bluetooth_LE). However, you don't need to compile it yourself.
 I find the version in the repositories to be sufficient. You can then discover the mac address
@@ -43,7 +45,7 @@ by running the command shown below. The mac is "FB:00:E0:82:AA:1F" in this case.
 Run the following command
 
 ```shell
-npm install -g homebridge-magic-blue-bulb
+npm install -g homebridge-magic-blue-bulb-v0r73x
 ```
 
 Chances are you are going to need sudo with that.
@@ -54,8 +56,7 @@ Chances are you are going to need sudo with that.
 {
     "accessory": "magic-blue-bulb",
     "name": "MagicBlue",
-    "mac": "FB:00:E0:82:AA:1F",
-    "handle": 46
+    "mac": "FB:00:E0:82:AA:1F"
 }
 ```
 
