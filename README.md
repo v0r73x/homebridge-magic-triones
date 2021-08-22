@@ -1,6 +1,11 @@
+v0r73x-happy-lighting-homebridge
 # Homebridge Triones (happylightning implementation) LED Light Bulb Plug in
 
 This plug-in enables you to control your happylightning LED light bulb.
+=======
+# Homebridge Triones LED Light Fluter Plug in
+
+This plug-in enables you to control your Happy Lightning LED light bulb.
 
 ## New Version
 
@@ -8,7 +13,7 @@ Releases that start with version 1.x.x are based on the old code base. If you wa
 project feel free to install version 2.x.x by running this command:
 
 ```shell
-npm install -g homebridge-magic-blue-bulb@alpha
+not sure ---- //*npm install -g homebridge-magic-blue-bulb@alpha
 ```
 
 This software is still in the alpha phase. Should you find any issues, please open up an
